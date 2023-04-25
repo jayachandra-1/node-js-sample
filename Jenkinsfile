@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                sh 'git credentialsId: 'jaya', url: 'https://github.com/Jayachandra-2/node-js-sample.git''
+                sh 'git credentialsId: 'jaya', url: 'git@github.com:jayachandra-1/node-js-sample.git''
             }
         }
     }
